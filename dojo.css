@@ -1,0 +1,153 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Plus Button CSS */
+#plus-button {
+    background-color: rgb(22, 199, 175);
+    border-color: rgb(22, 199, 175);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 50px;
+    font-size: larger;
+}
+
+/* Flex the container and divide in a single line using flex property */
+.row {
+    display: flex;
+    height: 120px;
+}
+.col {
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+    background-color: aqua;
+}
+.col-2 {
+    flex:2;
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+.col-3 {
+    flex:3;
+    background-color: aqua;
+    padding: 20px;
+    margin: 10
+}
+
+/* nav-bar CSS */
+.nav{
+    display: flex;
+    background-color: rgb(88, 86, 86);
+    justify-content: space-between;
+    
+}
+.nav-links {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    padding: 8px;
+    
+}
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.nav-links a {
+    color: rgb(212, 208, 208);
+    
+}
+.btn {
+    background-color: rgb(6, 205, 240);
+    width: 70px;
+    height: 25px;
+    color: white;
+    border-color: black;
+    box-shadow:1px 3px #1b1b1b;
+    
+}
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links .active {
+    color: white;
+}
+
+
+/* Profile Page CSS */
+.connection-request-box {
+    background-color: rgb(56, 55, 55);
+    height:50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    padding: 10px;
+    font-size: 25px;
+    font-weight:400;
+}
+.request-box {
+    border: 3px solid rgb(216, 213, 213);
+
+}
+#connection-button {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+}
+#connection-button-500 {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+.image-bar {
+    display:flex;
+    height: 70px;
+    padding: 5px;
+    justify-content:space-between;
+    
+}
+.image-bar h3 {
+    align-self: center;
+    font-size: 25px;
+
+}
+.your-connection-box {
+    border: 3px solid rgb(216, 213, 213);
+    margin-top: 20px;
+}
+.connection-image-bar {
+    display:flex;
+    height: 70px;
+    padding: 5px;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.connection-image-bar h3 {
+    align-self: center;
+    font-size: 25px;
+}
+#img-accept {
+    margin-left: 50px;
+}
+.view-more-box {
+    height: 40px;
+    border: 3px solid rgb(216, 213, 213);
+    padding: 10px;
+}
